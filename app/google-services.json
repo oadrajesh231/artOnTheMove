@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "530355347633",
+    "project_id": "funartapp",
+    "storage_bucket": "funartapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530355347633:android:3154463c3fd209b6290290",
+        "android_client_info": {
+          "package_name": "com.example.admin_login_screen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530355347633-comatme6u0d6m9kc6qmoker6il0h1uhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCML_CdOolVDYC_st7anSqhX8onxkg87c0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530355347633-comatme6u0d6m9kc6qmoker6il0h1uhc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

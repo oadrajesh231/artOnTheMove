@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">admin_login_screen</string>
+    <string name="bottom_navigator">Bottom Navigation</string>
+
+    <string-array name="job_positions">
+        <item>Registor</item>
+        <item>Driver at origin</item>
+        <item>Logistic/Agent of origin</item>
+        <item>Airport supervisor at origin</item>
+        <item>Airport supervisor at coordination</item>
+        <item>Logistic/Agent of coordination</item>
+        <item>Driver at destination</item>
+        <item>Borrower institution</item>
+    </string-array>
+
+<!--    <string  name="select">Select Job Position</string>-->
+
+</resources>

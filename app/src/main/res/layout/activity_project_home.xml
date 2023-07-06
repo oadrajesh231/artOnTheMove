@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".project_home">
+
+        <LinearLayout
+            android:background="@color/bg_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="74dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:layout_marginTop="-100dp"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Logo"
+                android:textSize="60sp"
+                />
+            <Button
+                android:background="@drawable/btn_bg"
+                android:id="@+id/btn_create_project1"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="Create Project"
+                android:textColor="@color/text_color"
+                android:textSize="18sp"
+                android:layout_marginTop="-20px"
+                android:layout_marginBottom="250px"
+                />
+
+            <Button
+                android:background="@drawable/btn_bg"
+                android:id="@+id/btn_create_project"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="Project Name"
+                android:textColor="@color/text_color"
+                android:textSize="18sp"
+                android:layout_marginTop="-150px"
+                android:layout_marginBottom="300px"
+                />
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Projects"
+                android:clickable="true"
+                android:layout_marginTop="250px"
+                android:textSize="15dp"
+                android:layout_marginBottom="15px"
+                android:textColor="@color/text_color"
+                />
+
+            <TextView
+                android:id="@+id/createAcc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:clickable="true"
+                android:textSize="15dp"
+
+                android:textColor="@color/text_color"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+

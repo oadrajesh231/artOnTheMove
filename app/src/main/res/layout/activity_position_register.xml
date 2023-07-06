@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register_page">
+
+    <LinearLayout
+        android:background="@color/bg_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="74dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/text_color"
+            android:text="Logo"
+            android:textSize="30sp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-15dp"
+            android:layout_marginBottom="-5dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:textColor="@color/text_color"
+            android:text="Name or Surname:"
+            android:textSize="20sp"
+            />
+
+
+        <!--edit text for user password-->
+        <EditText
+            android:id="@+id/user_reg_id_edit"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="text"
+            android:layout_marginBottom="25dp"
+            android:background="@color/text_color"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="-10dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:textColor="@color/text_color"
+            android:text="Job Position:"
+            android:textSize="20sp"
+            />
+        <Spinner
+            android:id="@+id/job_positions"
+            android:layout_width="380dp"
+            android:layout_height="110px"
+            android:spinnerMode="dropdown"
+            android:outlineAmbientShadowColor="@color/text_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-15dp"
+            android:layout_marginBottom="-10dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:textColor="@color/text_color"
+            android:text="Company:"
+            android:textSize="20sp"
+            />
+
+
+        <!--edit text for user password-->
+        <EditText
+            android:id="@+id/ed_company_position_register"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="25dp"
+            android:layout_height="90px"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="textEmailAddress"
+            android:background="@color/text_color"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-15dp"
+            android:layout_marginBottom="-10dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:textColor="@color/text_color"
+            android:text="Email:"
+            android:textSize="20sp"
+            />
+
+
+        <!--edit text for user password-->
+        <EditText
+            android:id="@+id/ed_email_position_register"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="25dp"
+            android:inputType="textEmailAddress"
+            android:background="@color/text_color"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-15dp"
+            android:layout_marginBottom="-10dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:textColor="@color/text_color"
+            android:text="Password:"
+            android:textSize="20sp"
+            />
+
+
+        <!--edit text for user password-->
+        <EditText
+            android:id="@+id/ed_password_position_register"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="25dp"
+            android:inputType="textEmailAddress"
+            android:background="@color/text_color"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-15dp"
+            android:layout_marginBottom="-10dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:textColor="@color/text_color"
+            android:text="Confirm Password:"
+            android:textSize="20sp"
+            />
+
+
+        <!--edit text for user password-->
+        <EditText
+            android:id="@+id/ed_confirm_pass_position_register"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="textVisiblePassword"
+            android:background="@color/text_color"
+
+
+            />
+
+        <Button
+            android:id="@+id/btn_register_position_register"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/bg_color"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:text="Register"
+            android:textColor="@color/text_color"
+            android:textSize="18sp"
+            android:layout_marginTop="35px"/>
+
+
+        <TextView
+            android:id="@+id/createAcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Can't have an account? Login here"
+            android:clickable="true"
+            android:layout_marginTop="40px"
+            android:textSize="15dp"
+            android:textColor="@color/text_color"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
