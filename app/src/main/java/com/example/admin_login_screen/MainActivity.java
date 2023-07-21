@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//
+
 //        requestWindowFeature(Window.FEATURE_NO_TITLE); //will hide the title
 //        getSupportActionBar().hide(); // hide the title bar
 //        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -69,27 +69,24 @@ public class MainActivity extends AppCompatActivity {
                 } else if (!email_login.matches(email_pattern)) {
                     ed_login_email.setError("Enter an valid email address");
                 } else {
-                    databaseReference.child("user").addListenerForSingleValueEvent(new ValueEventListener() {
-                        @Override
-                        public void onDataChange(@NonNull DataSnapshot snapshot) {
-                            final String get_email = snapshot.child("email").getValue(String.class);
-                            final String get_password = snapshot.child("password").getValue(String.class);
+//                    databaseReference.child("user").addListenerForSingleValueEvent(new ValueEventListener() {
+//                        @Override
+//                        public void onDataChange(@NonNull DataSnapshot snapshot) {
+//                            final String get_email = snapshot.child("email").getValue(String.class);
+//                            final String get_password = snapshot.child("password").getValue(String.class);
+//
+//                            if (get_password.equals(ed_login_pass) && get_email.equals(ed_login_pass)) {
+//                                Toast.makeText(MainActivity.this, "Login successfully", Toast.LENGTH_SHORT).show();
+//                                startActivity(new Intent(MainActivity.this, project_home.class));
+//                                finish();
+//                            } else {
+//                                Toast.makeText(MainActivity.this, "Enter valid email and password.", Toast.LENGTH_SHORT).show();
+//                            }
+//
+                    Intent intent = new Intent(MainActivity.this, position_login.class);
+                    startActivity(intent);
 
-                            if (get_password.equals(ed_login_pass) && get_email.equals(ed_login_pass)) {
-                                Toast.makeText(MainActivity.this, "Login successfully", Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(MainActivity.this, project_home.class));
-                                finish();
-                            } else {
-                                Toast.makeText(MainActivity.this, "Enter valid email and password.", Toast.LENGTH_SHORT).show();
-                            }
 
-                        }
-
-                        @Override
-                        public void onCancelled(@NonNull DatabaseError error) {
-
-                        }
-                    });
                 }
 
             }

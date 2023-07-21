@@ -19,12 +19,14 @@ tools:context=".position_login">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginBottom="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
         android:gravity="center"
         android:padding="10dp"
         android:textColor="@color/text_color"
-        android:text="Logo"
-        android:textSize="60sp"
+        android:text="ART ON THE MOVE"
+        android:textSize="30sp"
+
         />
 
     <TextView
@@ -36,6 +38,7 @@ tools:context=".position_login">
         android:textColor="@color/text_color"
         android:text="Email:"
         android:textSize="20sp"
+
         />
 
     <EditText
@@ -46,7 +49,8 @@ tools:context=".position_login">
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="30dp"
         android:inputType="textEmailAddress"
-        android:background="@color/text_color"/>
+        android:background="@drawable/bg_edit"
+        />
 
 
     <TextView
@@ -62,14 +66,14 @@ tools:context=".position_login">
 
     <com.google.android.material.textfield.MaterialAutoCompleteTextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
         android:hint="Select_jobs"
         android:textColor="@color/text_color"
         android:layout_marginRight="14dp"
         android:layout_marginLeft="14dp"
         android:padding="5dp"
-        android:textSize="20sp"
-        android:background="@color/bg_color">
+        android:textSize="15sp"
+        android:background="@drawable/bg_edit">
     ></com.google.android.material.textfield.MaterialAutoCompleteTextView>
 
     <TextView
@@ -77,7 +81,7 @@ tools:context=".position_login">
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="left"
-        android:padding="10dp"
+        android:padding="20dp"
         android:textColor="@color/text_color"
         android:text="Password:"
         android:textSize="20sp"
@@ -91,36 +95,58 @@ tools:context=".position_login">
         android:layout_height="90px"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:inputType="textEmailAddress"
-        android:background="@color/text_color"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_edit"
+     />
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:padding="20dp"
+        android:textColor="@color/text_color"
+        android:text="Confirm Password:"
+        android:textSize="20sp"
         />
+
+
+    <!--edit text for user password-->
+    <EditText
+        android:id="@+id/pl_confirm_pass_edit"
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_edit"
+        />
+
 
     <Button
         android:id="@+id/btnSubmit_login"
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="10dp"
-        android:background="@color/bg_color"
         android:fontFamily="sans-serif-black"
         android:padding="10dp"
         android:text="Login"
         android:textColor="@color/text_color"
         android:textSize="18sp"
+        android:background="@drawable/roundedbutton"
         android:layout_marginTop="45px"/>
 
 
     <TextView
-        android:id="@+id/createAcc"
+        android:id="@+id/tv_move_to_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Can't have an account? Register here"
+        android:text="If you have an account? Login here"
         android:clickable="true"
-        android:layout_marginTop="320px"
+        android:layout_marginTop="40px"
         android:textSize="15dp"
         android:textColor="@color/text_color"
         />
+
 
 
 </LinearLayout>

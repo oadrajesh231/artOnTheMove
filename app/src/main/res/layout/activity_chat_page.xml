@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chat_page">
+
+        <LinearLayout
+            android:background="@color/bg_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="74dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:layout_marginTop="-80dp"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Name and Surname"
+                android:textSize="35sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:layout_marginTop="-50dp"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Job Position"
+                android:textSize="20sp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:paddingBottom="20dp"
+                android:src="@drawable/frequently_questions"
+                />
+
+
+            <Button
+                android:background="@drawable/btn_bg"
+                android:id="@+id/btn_create_project1"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="Create Project"
+                android:textColor="@color/text_color"
+                android:textSize="18sp"
+                android:layout_marginTop="-20px"
+                android:layout_marginBottom="250px"
+                />
+
+
+
+        </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/ed_password_register1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/bg_edit"
+        android:hint="Type here"
+        android:inputType="textPassword"
+
+        />
+
+
+
+    </RelativeLayout>

@@ -12,7 +12,9 @@
         <item>Driver at destination</item>
         <item>Borrower institution</item>
     </string-array>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="click_here">Click Here</string>
 
-<!--    <string  name="select">Select Job Position</string>-->
+    <!--    <string  name="select">Select Job Position</string>-->
 
 </resources>

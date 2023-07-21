@@ -17,16 +17,15 @@
             android:gravity="center">
 
             <TextView
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="180px"
+                android:layout_height="150px"
                 android:layout_gravity="center"
-                android:layout_marginTop="-5dp"
-                android:layout_marginBottom="20dp"
                 android:gravity="center"
                 android:padding="10dp"
                 android:textColor="@color/text_color"
-                android:text="Logo"
-                android:textSize="40sp"
+                android:text="ART ON THE MOVE"
+                android:textSize="35sp"
                 />
 
 
@@ -40,22 +39,20 @@
                 android:padding="10dp"
                 android:textColor="@color/text_color"
                 android:text="Project Name:"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 />
 
 
             <!--edit text for user password-->
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="90px"
+                android:layout_height="70px"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:inputType="text"
-                android:layout_marginBottom="25dp"
-                android:background="@color/text_color"
-
-
-                />
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+              />
 
             <TextView
                 android:layout_width="match_parent"
@@ -67,155 +64,380 @@
                 android:padding="10dp"
                 android:textColor="@color/text_color"
                 android:text="Type Transport:"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 />
 
 
             <!--edit text for user password-->
             <Spinner
-                android:layout_width="380dp"
-                android:layout_height="110px"
-                android:spinnerMode="dropdown"
+                android:layout_width="390dp"
+                android:layout_height="70px"
+                android:background="@drawable/bg_edit"
                 android:outlineAmbientShadowColor="@color/text_color"
+                android:spinnerMode="dropdown"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="-15dp"
-                android:layout_marginBottom="-10dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginBottom="-5dp"
                 android:gravity="left"
                 android:padding="10dp"
                 android:textColor="@color/text_color"
-                android:text="Password:"
-                android:textSize="20sp"
-                />
-
-
-            <EditText
-                android:layout_alignParentLeft="true"
-                android:layout_gravity="left"
-                android:layout_width="180dp"
-                android:layout_height="90px"
-                android:inputType="text"
-                android:background="@color/text_color"
-
-                />
-            <EditText
-                android:layout_width="180dp"
-                android:layout_gravity="right"
-                android:layout_height="90px"
-                android:inputType="text"
-                android:background="@color/text_color"
-                />
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="-15dp"
-                android:layout_marginBottom="-10dp"
-                android:gravity="left"
-                android:padding="10dp"
-                android:textColor="@color/text_color"
-                android:text="Email:"
-                android:textSize="20sp"
-                />
-
-
-            <!--edit text for user password-->
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="90px"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="25dp"
-                android:inputType="textEmailAddress"
-                android:background="@color/text_color"
-
-
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="-15dp"
-                android:layout_marginBottom="-10dp"
-                android:gravity="left"
-                android:padding="10dp"
-                android:textColor="@color/text_color"
-                android:text="Password:"
-                android:textSize="20sp"
-                />
-
-
-            <!--edit text for user password-->
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="90px"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="25dp"
-                android:inputType="textEmailAddress"
-                android:background="@color/text_color"
-
-
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="-15dp"
-                android:layout_marginBottom="-10dp"
-                android:gravity="left"
-                android:padding="10dp"
-                android:textColor="@color/text_color"
-                android:text="Confirm Password:"
-                android:textSize="20sp"
-                />
-
-
-            <!--edit text for user password-->
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="90px"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:inputType="textVisiblePassword"
-                android:background="@color/text_color"
-
-
-                />
-
-            <Button
-                android:layout_width="250dp"
-                android:layout_height="60dp"
-                android:layout_marginBottom="10dp"
-                android:background="@color/bg_color"
-                android:fontFamily="sans-serif-black"
-                android:padding="10dp"
-                android:text="Register"
-                android:textColor="@color/text_color"
+                android:text="Reference No:"
                 android:textSize="18sp"
-                android:layout_marginTop="35px"/>
+                />
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+                android:inputType="text"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-15dp"
+                android:layout_marginBottom="-5dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Password:"
+                android:textSize="18sp"
+                />
+
+
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+                android:inputType="textPassword"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-15dp"
+                android:layout_marginBottom="-5dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Departure date:"
+                android:textSize="18sp"
+                />
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="180dp"
+                android:layout_height="70px"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+                android:inputType="date"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-70dp"
+                android:layout_marginBottom="-5dp"
+                android:gravity="right"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Departure time:"
+                android:textSize="18sp"
+                />
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="180dp"
+                android:layout_height="70px"
+                android:layout_gravity="right"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_edit"
+                android:inputType="time"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-15dp"
+                android:layout_marginBottom="-5dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Actual date:"
+                android:textSize="18sp"
+                />
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="180dp"
+                android:layout_height="70px"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_edit"
+                android:inputType="date"
+
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-80dp"
+                android:layout_marginBottom="-5dp"
+                android:gravity="right"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Actual time:"
+                android:textSize="18sp"
+                />
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="180dp"
+                android:layout_height="70px"
+                android:layout_gravity="right"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_edit"
+                android:inputType="time"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-10dp"
+                android:layout_marginBottom="-5dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Reference No:"
+                android:textSize="18sp"
+                />
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+                android:inputType="text"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-15dp"
+                android:layout_marginBottom="-5dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="City:"
+                android:textSize="18sp"
+                />
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="180dp"
+                android:layout_height="70px"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-70dp"
+                android:layout_marginBottom="-5dp"
+                android:gravity="right"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Country:"
+                android:textSize="18sp"
+                />
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="180dp"
+                android:layout_height="70px"
+                android:layout_gravity="right"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_edit"
+                android:inputType="text"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Reference No:"
+                android:textSize="18sp"
+                />
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="-10dp"
+                android:background="@drawable/bg_edit"
+                android:inputType="text"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="-2dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="City:"
+                android:textSize="18sp"
+                />
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="180dp"
+                android:layout_height="70px"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+                android:inputType="textAutoComplete"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-180px"
+                android:layout_marginBottom="-2dp"
+                android:gravity="right"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Country:"
+                android:textSize="18sp"
+                />
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="180dp"
+                android:layout_height="70px"
+                android:layout_gravity="right"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-10px"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_edit"
+                android:inputType="text"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="-2dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:text="Transport plan document:"
+                android:textSize="18sp"
+                />
+
+
+            <!--edit text for user password-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+                android:inputType="text"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Can't have an account? Login here"
+                android:layout_height="20dp"
+                android:layout_marginTop="50px"
                 android:clickable="true"
-                android:layout_marginTop="40px"
-                android:textSize="15dp"
+                android:focusable="true"
+                android:text="CREATE PROJECT"
                 android:textColor="@color/text_color"
-                />
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10px"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="GO Back"
+                android:textColor="@color/text_color"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
 
 
         </LinearLayout>
