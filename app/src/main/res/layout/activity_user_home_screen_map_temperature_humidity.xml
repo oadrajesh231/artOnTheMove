@@ -35,7 +35,7 @@
             android:layout_marginTop="-60dp"
             android:padding="10dp"
             android:textColor="@color/text_color"
-            android:text="Project Name"
+            android:text="My First Project"
             android:textSize="30sp"
             />
 

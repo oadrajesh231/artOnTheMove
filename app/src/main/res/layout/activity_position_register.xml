@@ -46,7 +46,7 @@
 
         <!--edit text for user password-->
         <EditText
-            android:id="@+id/user_reg_id_edit"
+            android:id="@+id/pr_user_reg_id_edit"
             android:layout_width="match_parent"
             android:layout_height="90px"
             android:layout_marginStart="10dp"
@@ -96,7 +96,7 @@
 
         <!--edit text for user password-->
         <EditText
-            android:id="@+id/ed_company_position_register"
+            android:id="@+id/pr_ed_company_position_register"
             android:layout_width="match_parent"
             android:layout_marginBottom="25dp"
             android:layout_height="90px"
@@ -124,7 +124,7 @@
 
         <!--edit text for user password-->
         <EditText
-            android:id="@+id/ed_email_position_register"
+            android:id="@+id/pr_ed_email_position_register"
             android:layout_width="match_parent"
             android:layout_height="90px"
             android:layout_marginStart="10dp"
@@ -152,7 +152,7 @@
 
         <!--edit text for user password-->
         <EditText
-            android:id="@+id/ed_password_position_register"
+            android:id="@+id/pr_ed_password_position_register"
             android:layout_width="match_parent"
             android:layout_height="90px"
             android:layout_marginStart="10dp"
@@ -180,19 +180,19 @@
 
         <!--edit text for user password-->
         <EditText
-            android:id="@+id/ed_confirm_pass_position_register"
+            android:id="@+id/pr_ed_confirm_pass_position_register"
             android:layout_width="match_parent"
             android:layout_height="90px"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:inputType="textVisiblePassword"
+            android:inputType="textPassword"
             android:background="@drawable/bg_edit"
 
 
             />
 
         <Button
-            android:id="@+id/btn_register_position_register"
+            android:id="@+id/pr_btn_register_position_register"
             android:layout_width="250dp"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"

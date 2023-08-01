@@ -46,13 +46,13 @@
             android:id="@+id/logout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Save Changes"
-            android:clickable="true"
             android:layout_marginTop="350px"
-            android:textSize="20dp"
             android:layout_marginBottom="15px"
+            android:clickable="true"
+            android:text="Save Changes"
             android:textColor="@color/text_color"
-            />
+            android:textSize="20dp"
+            tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>
 

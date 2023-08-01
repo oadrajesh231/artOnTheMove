@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".user_home_page">
+    tools:context=".project_edit">
 
     <LinearLayout
         android:background="@color/bg_color"
@@ -30,21 +30,7 @@
             />
         <Button
             android:background="@drawable/btn_bg"
-            android:id="@+id/uhp_btn_create_project"
-            android:layout_width="350dp"
-            android:layout_height="60dp"
-            android:fontFamily="sans-serif-black"
-            android:padding="10dp"
-            android:text="Create Project"
-            android:textColor="@color/text_color"
-            android:textSize="18sp"
-            android:layout_marginTop="-20px"
-            android:layout_marginBottom="250px"
-            />
-
-        <Button
-            android:background="@drawable/btn_bg"
-            android:id="@+id/uhp_btn_project_name"
+            android:id="@+id/pe_btn_create_project1"
             android:layout_width="350dp"
             android:layout_height="60dp"
             android:fontFamily="sans-serif-black"
@@ -52,23 +38,24 @@
             android:text="Project Name"
             android:textColor="@color/text_color"
             android:textSize="18sp"
-            android:layout_marginTop="-150px"
-            android:layout_marginBottom="300px"
+            android:layout_marginTop="-20px"
+            android:layout_marginBottom="250px"
             />
 
         <TextView
-            android:id="@+id/uhp_edit_project"
+            android:id="@+id/pe_save_changes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="350px"
-            android:layout_marginBottom="15px"
+            android:text="Save Changes"
             android:clickable="true"
-            android:text="Edit Projects"
+            android:layout_marginTop="350px"
+            android:textSize="20dp"
+            android:layout_marginBottom="15px"
             android:textColor="@color/text_color"
-            android:textSize="15dp"
-            tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
+            />
 
     </LinearLayout>
 
-    </RelativeLayout>
 
+
+</RelativeLayout>

@@ -50,22 +50,6 @@
                 />
 
 
-            <Button
-                android:background="@drawable/btn_bg"
-                android:id="@+id/btn_create_project1"
-                android:layout_width="350dp"
-                android:layout_height="60dp"
-                android:fontFamily="sans-serif-black"
-                android:padding="10dp"
-                android:text="Create Project"
-                android:textColor="@color/text_color"
-                android:textSize="18sp"
-                android:layout_marginTop="-20px"
-                android:layout_marginBottom="250px"
-                />
-
-
-
         </LinearLayout>
 
 
@@ -74,15 +58,31 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="500dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="55dp"
         android:background="@drawable/bg_edit"
         android:hint="Type here"
         android:inputType="textPassword"
 
         />
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_menu" />
 
 
     </RelativeLayout>

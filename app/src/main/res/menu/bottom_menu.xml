@@ -9,17 +9,17 @@
         android:icon="@drawable/baseline_location_on_24"
         android:title="Location" />
     <item
-        android:id="@+id/bottom_speed_btn"
+        android:id="@+id/bottom_temperature_btn"
         android:icon="@drawable/baseline_speed_24"
-        android:title="Speed" />
+        android:title="Temperature" />
     <item
         android:id="@+id/bottom_chat_btn"
         android:icon="@drawable/baseline_chat_24"
         android:title="Chat" />
 
     <item
-        android:id="@+id/bottom_person_btn"
+        android:id="@+id/bottom_personal_btn"
         android:icon="@drawable/baseline_person_24"
-        android:title="Person" />
+        android:title="Personal info" />
 
 </menu>
